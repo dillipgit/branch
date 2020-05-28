@@ -11,6 +11,9 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 		System.out.println("Application.main()");
                int x = 10;
+               int y = 10;
+               System.out.println("y"+y);
+               System.out.println("x"+x);
 	}
 
 }
